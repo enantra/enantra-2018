@@ -1,0 +1,86 @@
+
+.form-1{
+    padding: 10px 0px 0px 40px;
+  } 
+  .form-2{
+    text-align: left;
+    padding: 87px 10px 10px 10px;
+  }
+  .form-1-head{
+    text-align: center;
+  }
+  .registration-info{
+    padding: 10px 0px 0px 250px;
+  }
+  .h4{
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  }
+  .bg{
+    background-image: url(img/home1.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height:650px;
+    width: 100%;   
+    background-size: 100%;
+    position: relative; 
+    opacity:0.8;
+    z-index: -1;   
+  }
+  .ptext{
+    position:absolute;
+    top:20%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:50px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-family:"Lato", sans-serif;
+    font-weight:600;
+  }
+  .ptext .border{
+    background-color:#111;
+    color:whitesmoke;
+    padding:20px;
+  }
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
+  .homepage-head{
+    text-decoration: underline;
+  }
+  .ebm-registeration{
+    padding:20px 10px 10px 10px;
+    text-align: center;
+  }
+  .registeration{
+    padding: 20px;
+    background-image: url(img/mountains.png);
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%;
+    background-attachment: fixed;
+  }
+  .about-content{
+    font-family: serif;
+    font-size: 17px;
+    padding-bottom:0px;
+    padding-top: 10px;
+    
+  }
+  .about{
+    padding-bottom: 20px;
+   
+  }
+  .map{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .location-contact{
+    padding-top: 250px;
+  }

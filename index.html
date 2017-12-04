@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.navbar{
+    margin-bottom:0;
+    border-radius: 0;
+    background-color:black;
+    border:0;
+    height: 46px;
+    font-size:15px;
+    background-color:transparent;
+	  border-color:transparent;
+	  background-image:none;
+	  box-shadow:none;	
+  }
+  .navbar-brand{
+    float:left;
+    min-height: 20px;
+    padding: 10px 0px 10px 10px;
+  }
+  .navbar-inverse .navbar-nav .active a,
+  .navbar-inverse .navbar-nav .active a:focus,
+  .navbar-inverse .navbar-nav .active a:hover{
+    color:#fff;
+    background-color:black;
+    font-size:15px; 
+    color:#fff; 
+  }
+  body{
+  }
+  #map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+        padding-top: 20px;
+      }
+
+
+
+</style>
+</head>
+
+<body >
+    <!--START OF NAVBAR-->
+    <div class="bg">              
+   <!-- <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>              
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo1.png" height=60 width=200></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar sticky-top navbar-light bg-light">
+              <li class="active"><a href="#">Home</a></li>
+              <li ><a href="#">Registrations</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav> -->
+    <!-- END OF NAVBAR-->
+    <!--START OF HOME-SECTION-->
+            <div class="home-section">
+              <div class="ptext">
+              <span class="border trans">
+              <p class="homepage-head">Enantra 2.0</p>
+              <h4>SOUTH INDIA'S BIGGEST ENTREPRENEURSHIP MANTRA</h4>
+              <h5 class="date"><span class="glyphicon glyphicon-calendar"></span>8th February 2017-11th February 2017</h5>
+              <h5><i class="fa fa-map-marker" aria-hidden="true">CEG,Anna University</i></h5>
+              </span>
+              </div>
+            </div>
+    </div>
+    <!--END OF HOME-SECTION-->
+    <!--START OF ABOUT -->
+    <div class="container">
+      <div class="about">
+        <div class="col-md-12">
+          <div class="about-content">
+              <div class="about-content">
+          <div class="p-3 mb-2 bg-light text-dark">
+              <p>Enantra is an AU courant entrepreneurship event aimed at envisioning and empowering the youth
+              with the spirit of entrepreneurship and the art of corporate play. The event, spread across three
+              days will provide latitude for bringing forth the best delegates and some amazing speakers
+              commencing in various entrepreneurial domains from all across the country. We promise to provide
+              you with a wide range of enthralling management events and interesting workshops which will help
+              escalate your knowledge about Start-ups. Enantra 2018 has been envisioned to break barriers of
+              expectations and scale beyond its previous edition to provide you with the best.</p>
+              </div>
+           </div>   
+            </div>
+        </div>
+        </div>
+    </div> 
+    <!--START OF REGISTRATION-SECTION-->
+    <div class="container">
+    <div class="registeration">
+    <!--START OF REGISTERATION-FORM-->
+    <div class="col-md-4">
+      <div class="form-1">
+        <div class="well well-lg">              
+        <h3 class="form-1-head">Register</h3>
+        <div class="container-form">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="text">First Name</label>
+                <input type="text" class="form-control" id="text" placeholder="First Name" id="ex3">
+            </div>
+            <div class="form-group">
+                <label for="text">Last Name</label>                
+              <input type="text" class="form-control" id="text" placeholder="Second Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>                
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for"date">DOB</label>                
+                <input type="date" id="date" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="text">College Name</label>
+                <input type="text" class="form-control" id="text" placeholder="College Name">
+            </div>
+              <div class="form-group row">
+                <div class="col-xs-4">
+                 <label for="sel1" for="ex2">Year</label>
+                     <select class="form-control" id="sel1" id="ex2">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                     </select>
+                  </div>
+                  <div class="form-group">
+                      <label>Do you need accomodation?</label>
+                      <br>
+                      <label class="checkbox-inline">
+                          <input type="checkbox" value="">Yes
+                        </label>
+                        <label class="checkbox-inline">
+                          <input type="checkbox" value="">No
+                        </label>
+                  </div>
+                </div>
+             <!--   <div class="form-group">
+                  <label for="text">EBM ID</label>
+                  <input type="text" class="form-control" id="text" placeholder="EBM ID(optional)">
+                </div>
+              -->
+              <div>
+              <center><button type="submit" class="btn btn-default">Submit</button></center>
+            </div>
+              </form>
+        </div>
+       </div>
+      </div>
+    </div> 
+      <!--END OF REGISTRATION-FORM-->
+      <div class="col-md-4">
+        
+      </div>
+      <!--START OF REGISTRATION-INFO-->
+    <div class="container">
+      <div class="col-md-4">
+       <div class="form-2">
+       <div class="well well-lg">          
+          <div class="ebm-registeration">
+          <h3>Want to Become our Brand Manager?</h3>      
+            <div class="container-form">
+            <form class="form-horizontal">
+               <div class="form-group">
+                  <label for="text">First Name</label>
+                  <input type="text" class="form-control" id="text" placeholder="First Name" >
+               </div>
+               <div class="form-group">
+                <label for="text">Last Name</label>
+                <input type="text" class="form-control" id="text" placeholder="Last Name"> 
+               </div> 
+               <div class="form-group">
+                 <label for="text">Enter Your Enantra ID(EID)</label> 
+                 <input type="text" class="form-control" id="text" placeholder="Enantra ID">                  
+               </div> 
+               <div class="form-group row">
+                  <div class="col-xs-5">
+                   <label for="sel1" for="ex4">T-shirt size</label>
+                       <select class="form-control" id="sel1" id="ex4">
+                            <option>XS</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                       </select>
+                    </div>
+                </div>
+              </div>
+            <div>
+              <center><button type="submit" class="btn btn-default">Submit</button></center>
+            </div>
+            </form>
+            </div>
+          </div>   
+          </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+   </div> 
+      <!--END OF REGISTRATION-INFO-->
+    </div> 
+    <!--END OF REGISTRATION-SECTION-->
+    <!--MAPS-->
+    <div class="container">
+    <div class="col-md-8">
+    <div class="map">
+    <div id="map">
+    <script>
+        function initMap() {
+          var uluru = {lat: 13.012357, lng: 80.240205};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7QLgJYQelaWyV9sKn4LZr8mOllQUUcsE&callback=initMap">
+      </script>
+      </div>
+      </div>
+      </div>
+      <div class="location-contact">
+      <div class="col-md-4 pull right">
+        <h4>  <i class="fa fa-map-marker">Locate us at:</i>  </h4> 
+        <blockquote>
+          <address>
+              CEG,Anna University<br>
+              Guindy,Chennai<br>
+              600014<br>
+          </address>
+        </blockquote> 
+      </div>
+      </div>
+      </div>
+      <!--END OF MAPS-->
+</body>
+</html>
