@@ -9,52 +9,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-.navbar{
-    margin-bottom:0;
-    border-radius: 0;
-    background-color:black;
-    border:0;
-    height: 46px;
-    font-size:15px;
-    background-color:transparent;
-	  border-color:transparent;
-	  background-image:none;
-	  box-shadow:none;	
-  }
-  .navbar-brand{
-    float:left;
-    min-height: 20px;
-    padding: 10px 0px 10px 10px;
-  }
-  .navbar-inverse .navbar-nav .active a,
-  .navbar-inverse .navbar-nav .active a:focus,
-  .navbar-inverse .navbar-nav .active a:hover{
-    color:#fff;
-    background-color:black;
-    font-size:15px; 
-    color:#fff; 
-  }
-  body{
-  }
+<style type="text/css">
   #map {
         width: 100%;
         height: 400px;
         background-color: grey;
         padding-top: 20px;
       }
-
-
-
 </style>
 </head>
-
-<body >
-    <div class="bg">         
-    <!--START OF NAVBAR-->
-       
+<body >        
+    
     <!--START OF HOME-SECTION-->
+    <nav>        
+    <div class="navbar-header">
+        <a href="#" class="navbar-brand"><img src="img/logo1.png" height="100px"></a>
+    </div>    
+    </nav>
+
+    <div class="bg">                                                                                             
             <div class="home-section">
+            <div class="col-md-8">  
               <div class="ptext">
               <span class="border trans">
               <p class="homepage-head">Enantra 2.0</p>
@@ -64,97 +39,69 @@
               </span>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="form-1">
+                <div class="well well-lg">              
+                <h3 class="form-1-head">Register</h3>
+                <div class="container-form">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="text">First Name</label>
+                        <input type="text" class="form-control" id="text" placeholder="First Name" id="ex3">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Last Name</label>                
+                      <input type="text" class="form-control" id="text" placeholder="Second Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>                
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for"date">DOB</label>                
+                        <input type="date" id="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="text">College Name</label>
+                        <input type="text" class="form-control" id="text" placeholder="College Name">
+                    </div>
+                      <div class="form-group row">
+                        <div class="col-xs-4">
+                         <label for="sel1" for="ex2">Year</label>
+                             <select class="form-control" id="sel1" id="ex2">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                             </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label>Do you need accomodation?</label>
+                          <br>
+                          <label class="radio-inline">
+                            <input type="radio" name="optradio">Yes
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="optradio">No
+                          </label>
+                      </div>
+                    <div>
+                      <center><button type="submit" class="btn btn-default">Submit</button></center>
+                    </div>
+                  </form>
+                </div>
+               </div>
+             </div>
+            </div> 
+
+            </div>
     </div>
     <!--END OF HOME-SECTION-->
-  
-    <!--START OF REG. AND ABOUT-->
-  <div class="registeration">
-
-    <!--START OF REGISTERATION-FORM-->
-    <div class="col-md-4">
-      <div class="form-1">
-        <div class="well well-lg">              
-        <h3 class="form-1-head">Register</h3>
-        <div class="container-form">
-          <form class="form-horizontal">
-            <div class="form-group">
-              <label for="text">First Name</label>
-                <input type="text" class="form-control" id="text" placeholder="First Name" id="ex3">
-            </div>
-            <div class="form-group">
-                <label for="text">Last Name</label>                
-              <input type="text" class="form-control" id="text" placeholder="Second Name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>                
-                <input type="email" class="form-control" id="email" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <label for"date">DOB</label>                
-                <input type="date" id="date" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="text">College Name</label>
-                <input type="text" class="form-control" id="text" placeholder="College Name">
-            </div>
-              <div class="form-group row">
-                <div class="col-xs-4">
-                 <label for="sel1" for="ex2">Year</label>
-                     <select class="form-control" id="sel1" id="ex2">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                     </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label>Do you need accomodation?</label>
-                  <br>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">Yes
-                  </label>
-                  <label class="radio-inline">
-                    <input type="radio" name="optradio">No
-                  </label>
-              </div>
-            <div>
-              <center><button type="submit" class="btn btn-default">Submit</button></center>
-            </div>
-          </form>
-        </div>
-       </div>
-     </div>
-    </div> 
-      <!--END OF REGISTRATION-FORM-->
-
-      <!--START OF ABOUT-SECTION-->
-      <div class="container">
-          <div class="about">
-            <div class="col-md-8">
-                 <div class="p1-about">
-                  <p>Enantra is an AU courant entrepreneurship event aimed at envisioning and empowering the youth
-                  with the spirit of entrepreneurship and the art of corporate play. The event, spread across three
-                  days will provide latitude for bringing forth the best delegates and some amazing speakers
-                  commencing in various entrepreneurial domains from all across the country. </p>
-                 </div>
-                  <div class="p2-about">
-                  <p> We promise to provide you with a wide range of enthralling management events and interesting workshops which will help
-                  escalate your knowledge about Start-ups. Enantra 2018 has been envisioned to break barriers of
-                  expectations and scale beyond its previous edition to provide you with the best.</p>
-                  </div>
-            </div>
-          </div>
-      </div> 
-    
-    </div>
-    
-    <!--END OF ABOUT-SECTION-->
-    <!--END OF REG. AND ABOUT-->
 
 
-    <!--MAPS-->
+    <!--MAPS
     <div class="map-bg">
     <div class="col-md-12">
     <div class="map">
@@ -179,6 +126,7 @@
       </div>
       </div>
       </div>
+    -->
       <!--END OF MAPS-->
 
 

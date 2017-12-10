@@ -1,7 +1,9 @@
 
 .form-1{
-    padding: 10px 0px 0px 40px;
+    padding: 0px 0px 0px 0px;
+    background-color: transparent;
   } 
+
   .form-2{
     text-align: left;
     padding: 87px 10px 10px 10px;
@@ -16,15 +18,15 @@
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   }
   .bg{
-    background-image: url(img/home1.JPG);
+    background-image: url(img/reg_bg.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    height:650px;
+    /* background-attachment: fixed;  */
+    height:700px;
     width: 100%;   
     background-size: 100%;
-    position: relative; 
-    opacity:0.8;
+    position: absolute; 
     z-index: -1;   
+    opacity: 0.9;
   }
   .ptext{
     position:absolute;
@@ -40,7 +42,7 @@
   }
   .ptext .border{
     background-color:#111;
-    color:whitesmoke;
+    color:black;
     padding:20px;
   }
   .ptext .border.trans{
@@ -53,21 +55,18 @@
   }
   .homepage-head{
     text-decoration: underline;
+    padding-top:20px;
   }
   .ebm-registeration{
     padding:20px 10px 10px 10px;
     text-align: center;
   }
   .registeration{
-    padding: 30px;
-    background-image: url(img/mountains.png);
-    background-repeat: no-repeat;
-    height:100%;
-    width:100%;
-    background-attachment: fixed;
+    /* padding-top: 100px; */
+    background-color: #1c2331;
   }
-  .about-content{
-    padding-top: 10px;
+    .about-content{
+    padding-top: 20px;
   }
   .about{
     padding-top:160px;
@@ -88,4 +87,11 @@
     width:100%;
     background-attachment: fixed;
 
+  }
+  .p1-about{
+    color: white;
+  }
+  .home-section{
+    padding-top: 30px;
+    padding-bottom: 0[x;]
   }
