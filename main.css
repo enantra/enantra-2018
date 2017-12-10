@@ -1,4 +1,14 @@
-
+body{
+  background-image: url(img/reg_bg.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;  */
+  height:auto;
+  width: 100%;   
+  background-size: 100%;
+  position: absolute; 
+  z-index: -1;   
+  opacity: 0.9;
+}
 .form-1{
     padding: 0px 0px 0px 0px;
     background-color: transparent;
@@ -17,7 +27,7 @@
   .h4{
     font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   }
-  .bg{
+   .bg{
     background-image: url(img/reg_bg.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed;  */
@@ -27,7 +37,7 @@
     position: absolute; 
     z-index: -1;   
     opacity: 0.9;
-  }
+  } 
   .ptext{
     position:absolute;
     top:20%;
