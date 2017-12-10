@@ -21,7 +21,7 @@
     background-image: url(img/reg_bg.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed;  */
-    height:700px;
+    height:auto;
     width: 100%;   
     background-size: 100%;
     position: absolute; 
