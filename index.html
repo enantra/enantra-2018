@@ -1,135 +1,824 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Enantra 2.0</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style type="text/css">
-  #map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-        padding-top: 20px;
-      }
-  
-</style>
+<!--
+New Event
+http://www.templatemo.com/tm-486-new-event
+-->
+<title>Enantra 2.0</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
+
 </head>
-<body >        
-    
-    <!--START OF HOME-SECTION-->
-    <nav>        
-    <div class="navbar-header">
-        <a href="#" class="navbar-brand"><img src="img/logo1.png" height="100px"></a>
-    </div>    
-    </nav>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 
-    <div class="bg">                                                                                             
-            <div class="home-section">
-            <div class="col-md-8">  
-              <div class="ptext">
-              <span class="border trans">
-              <p class="homepage-head">Enantra 2.0</p>
-              <h4>SOUTH INDIA'S BIGGEST ENTREPRENEURSHIP MANTRA</h4>
-              <h5 class="date"><span class="glyphicon glyphicon-calendar"></span>8th February 2017-11th February 2017</h5>
-              <h5><i class="fa fa-map-marker" aria-hidden="true">CEG,Anna University</i></h5>
-              </span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="form-1">
-                <div class="well well-lg">              
-                <h3 class="form-1-head">Register</h3>
-                <div class="container-form">
-                  <form class="form-horizontal">
-                    <div class="form-group">
-                      <label for="text">First Name</label>
-                        <input type="text" class="form-control" id="text" placeholder="First Name" id="ex3">
-                    </div>
-                    <div class="form-group">
-                        <label for="text">Last Name</label>                
-                      <input type="text" class="form-control" id="text" placeholder="Second Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>                
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for"date">DOB</label>                
-                        <input type="date" id="date" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="text">College Name</label>
-                        <input type="text" class="form-control" id="text" placeholder="College Name">
-                    </div>
-                      <div class="form-group row">
-                        <div class="col-xs-4">
-                         <label for="sel1" for="ex2">Year</label>
-                             <select class="form-control" id="sel1" id="ex2">
-                                  <option>1</option>
-                                  <option>2</option>
-                                  <option>3</option>
-                                  <option>4</option>
-                                  <option>5</option>
-                             </select>
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label>Do you need accomodation?</label>
-                          <br>
-                          <label class="radio-inline">
-                            <input type="radio" name="optradio">Yes
-                          </label>
-                          <label class="radio-inline">
-                            <input type="radio" name="optradio">No
-                          </label>
-                      </div>
-                    <div>
-                      <center><button type="submit" class="btn btn-default">Submit</button></center>
-                    </div>
-                  </form>
-                </div>
-               </div>
-             </div>
-            </div> 
+<!-- =========================
+     PRE LOADER       
+============================== -->
+<div class="preloader">
 
-            </div>
-    </div>
-    <!--END OF HOME-SECTION-->
+	<div class="sk-rotating-plane"></div>
+
+</div>
 
 
-    <!--MAPS
-    <div class="map-bg">
-    <div class="col-md-12">
-    <div class="map">
-    <div id="map">
-    <script>
-        function initMap() {
-          var uluru = {lat: 13.012357, lng: 80.240205};
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 15,
-            center: uluru
-          });
-          var marker = new google.maps.Marker({
-            position: uluru,
-            map: map
-          });
-        }
-      </script>
-      <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7QLgJYQelaWyV9sKn4LZr8mOllQUUcsE&callback=initMap">
-      </script>
-      </div>
-      </div>
-      </div>
-      </div>
-    -->
-      <!--END OF MAPS-->
+<!-- =========================
+     NAVIGATION LINKS     
+============================== -->
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
 
+		<!-- navbar header -->
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><img src="images/elogo.png" class="img-responsive" height="100px" width="250px"></a>
+		</div>
+
+		<div class="collapse navbar-collapse">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#intro" class="smoothScroll">Intro</a></li>
+				<li><a href="#overview" class="smoothScroll">Overview</a></li>
+				<li><a href="#events" class="smoothScroll">Events</a></li>				
+				<li><a href="#speakers" class="smoothScroll">6DT</a></li>
+				<li><a href="#program" class="smoothScroll">Schedule</a></li>
+				<li><a href="#faq" class="smoothScroll">FAQs</a></li>
+				<li><a href="#venue" class="smoothScroll">Venue</a></li>
+				<li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
+				<li><a href="#contact" class="smoothScroll">Contact</a></li>
+			</ul>
+
+		</div>
+
+	</div>
+</div>
+
+
+<!-- =========================
+    INTRO SECTION   
+============================== -->
+<section id="intro" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<h3 class="wow bounceIn" data-wow-delay="0.9s">February 08 - 11 in CEG, Anna University, Chennai</h3>
+				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Enantra 2.0</h1>
+				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
+				<a href="register.html" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">REGISTER NOW</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    OVERVIEW SECTION   
+============================== -->
+<section id="overview" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
+				<h3>Enantra is an AU courant entrepreneurship event aimed at envisioning and empowering the youth
+					with the spirit of entrepreneurship and the art of corporate play.</h3>
+				<p>The event, spread across three
+					days will provide latitude for bringing forth the best delegates and some amazing speakers
+					commencing in various entrepreneurial domains from all across the country.</p>
+				<p>We promise to provide
+					you with a wide range of enthralling management events and interesting workshops which will help
+					escalate your knowledge about Start-ups. Enantra 2018 has been envisioned to break barriers of
+					expectations and scale beyond its previous edition to provide you with the best.</p>
+			</div>
+					
+			<div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.9s">
+				<img src="images/about.jpg" class="img-responsive" alt="Overview">
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    DETAIL SECTION   
+============================== -->
+<section id="detail" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInLeft col-md-4 col-sm-4" data-wow-delay="0.3s">
+				<i class="fa fa-group"></i>
+				<h3>6000+ Participants</h3>
+				<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+			</div>
+
+			<div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
+				<i class="fa fa-clock-o"></i>
+				<h3>2 Days Event</h3>
+				<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+			</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<i class="fa fa-microphone"></i>
+				<h3>10+ Speakers</h3>
+				<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+			</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<i class="fa fa-money"></i>
+				<h3>3 Lakhs cash prize</h3>
+				<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+			</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<!--	<i class="fa fa-microphone"></i>
+					<h3></h3>
+					<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+				-->
+				</div>
+
+			<div class="wow fadeInRight col-md-4 col-sm-4" data-wow-delay="0.9s">
+				<i class="fa fa-calendar-o"></i>
+				<h3>11 Speakers</h3>
+				<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    VIDEO SECTION   
+============================== -->
+<!--
+<section id="video" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.3s">
+				<h2>Watch Video</h2>
+				<h3>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+			</div>
+			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+-->
+
+<!-- =========================
+    EVENTS SECTION   
+============================== -->
+<section id="events" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+					<h2>Mini Events</h2>
+					<p>Participate and earn exciting prizes!!</p>
+				</div>
+			</div>
+
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-events" class="owl-carousel">
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="events-wrapper">
+						<img src="images/strategy.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Strategy Master</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/idol.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>E-Idol!</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="events-wrapper">
+						<img src="images/spin.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Spin the wheel</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/quiz.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Quiz</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/grandmaster.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Grandmaster</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/meq.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Marketing Marathon</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/uber.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Uber Pitch</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/puzzled.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Puzzled</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/wizard.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Biz Wizard</h3>
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="events-wrapper">
+						<img src="images/voice.png" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Hear my Voice</h3>
+							</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+    SPEAKERS SECTION   
+============================== -->
+
+<section id="speakers" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+					<h2>Our Guest Speakers</h2>
+					<p>Come listen to our guest speakers</p>
+				</div>
+			</div>
+		
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-speakers" class="owl-carousel">
+
+		<!--		<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="speakers-wrapper">
+						<img src="images/speakers-img1.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Jenny Green</h3>
+								<h6>UI Designer</h6>
+							</div>
+					</div>
+				</div>
+			-->
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+			<!--		<div class="speakers-wrapper">
+						<img src="images/speakers-img2.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>David Yoon</h3>
+								<h6>Creative Director</h6>
+							</div>
+					</div> -->
+				</div> 
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+					<div class="speakers-wrapper">
+						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+							<!--	<h3>Je Mary Lee</h3>
+								<h6>Web Specialist</h6> -->
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+					<div class="speakers-wrapper">
+						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+							<!--	<h3>Johnathan Doe</h3>
+								<h6>Frontend Dev</h6> -->
+							</div>
+					</div>
+				</div>
+
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
+		<!--			<div class="speakers-wrapper">
+						<img src="images/speakers-img5.jpg" class="img-responsive" alt="speakers">
+							<div class="speakers-thumb">
+								<h3>Elite Hamilton</h3>
+								<h6>Marketing Guru</h6>
+							</div>
+					</div> -->
+				</div> 
+				
+			</div>
+
+		</div>
+	</div> 
+</section>
+<!-- =========================
+    PROGRAM SECTION   
+============================== -->
+
+<section id="program" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
+				<div class="section-title">
+					<h2>Our Programs</h2>
+					<p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s"> 
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#fday" aria-controls="fday" role="tab" data-toggle="tab">FIRST DAY</a></li>
+					<li><a href="#sday" aria-controls="sday" role="tab" data-toggle="tab">SECOND DAY</a></li>
+					<li><a href="#tday" aria-controls="tday" role="tab" data-toggle="tab">THIRD DAY</a></li>
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+
+					<div role="tabpanel" class="tab-pane active" id="fday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img1.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 09.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Introduction to Design</h3>
+							<h4>By Jenny Green</h4>
+							<p>Maecenas accumsan metus turpis, eu faucibus ligula interdum in. Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img2.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 10.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 360</span>
+							</h6>
+							<h3>Front-End Development</h3>
+							<h4>By Johnathan Mark</h4>
+							<p>Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img3.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 450</span>
+							</h6>
+							<h3>Social Media Marketing</h3>
+							<h4>By Johnathan Doe</h4>
+							<p>Nam pulvinar, elit vitae rhoncus pretium, massa urna bibendum ex, aliquam efficitur lorem odio vitae erat. Integer rutrum viverra magna, nec ultrices risus rutrum nec.</p>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="sday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img4.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 11.00 AM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 240</span>
+							</h6>
+							<h3>Backend Development</h3>
+							<h4>By Matt Lee</h4>
+							<p>Integer rutrum viverra magna, nec ultrices risus rutrum nec. Pellentesque interdum vel nisi nec tincidunt. Quisque facilisis scelerisque venenatis. Nam vulputate ultricies luctus.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img5.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 01.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 450</span>
+							</h6>
+							<h3>Web Application Lite</h3>
+							<h4>By David Orlando</h4>
+							<p>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img6.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 650</span>
+							</h6>
+							<h3>Professional UX Design</h3>
+							<h4>By James Lee Mark</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+						</div>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="tday">
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img7.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 03.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Online Shopping Business</h3>
+							<h4>By Michael Walker</h4>
+							<p>Aliquam faucibus lobortis dolor, id pellentesque eros pretium in. Aenean in erat ut quam aliquet commodo. Vivamus aliquam pulvinar ipsum ut sollicitudin. Suspendisse quis sollicitudin mauris.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img8.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 05.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 850</span>
+							</h6>
+							<h3>Introduction to Mobile App</h3>
+							<h4>By Cherry Stella</h4>
+							<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+						</div>
+
+						<!-- program divider -->
+						<div class="program-divider col-md-12 col-sm-12"></div>
+
+						<!-- program speaker here -->
+						<div class="col-md-2 col-sm-2">
+							<img src="images/program-img9.jpg" class="img-responsive" alt="program">
+						</div>
+						<div class="col-md-10 col-sm-10">
+							<h6>
+								<span><i class="fa fa-clock-o"></i> 07.00 PM</span> 
+								<span><i class="fa fa-map-marker"></i> Room 750</span>
+							</h6>
+							<h3>Bootstrap UI Design</h3>
+							<h4>By John David</h4>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+						</div>
+					</div>
+
+				</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- =========================
+   REGISTER SECTION   
+============================== -->
+<!--
+<section id="register" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
+				<h2>Register Here</h2>
+				<h3>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
+				<form action="#" method="post">
+					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="First Name">
+					<input name="lastname" type="text" class="form-control" id="lastname" placeholder="Last Name">
+					<input name="phone" type="telephone" class="form-control" id="phone" placeholder="Phone Number">
+					<input name="email" type="email" class="form-control" id="email" placeholder="Email Address">
+
+					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
+						<input name="submit" type="submit" class="form-control" id="submit" value="REGISTER">
+					</div>
+				</form>
+			</div>
+
+			<div class="col-md-1"></div>
+
+		</div>
+	</div>
+</section>
+-->
+
+<!-- =========================
+    FAQ SECTION   
+============================== -->
+<section id="faq" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<!-- Section title
+			================================================== -->
+			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
+				<div class="section-title">
+					<h2>Do you have Questions?</h2>
+					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="0.9s">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingOne">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          							 What is Responsive Design?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      						<div class="panel-body">
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+								<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+      						</div>
+   						 </div>
+ 					</div>
+
+    				<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingTwo">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          							What are latest UX Developments?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      						<div class="panel-body">
+                            	<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+      						</div>
+   						 </div>
+ 					</div>
+
+ 					<div class="panel panel-default">
+   						<div class="panel-heading" role="tab" id="headingThree">
+      						<h4 class="panel-title">
+        						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          							What things about Social Media will be discussed?
+        						</a>
+      						</h4>
+    					</div>
+   						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      						<div class="panel-body">
+                            	<p>Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.</p>
+        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+      						</div>
+   						 </div>
+ 					 </div>
+
+ 				 </div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    VENUE SECTION   
+============================== -->
+<section id="venue" class="parallax-section">
+	<div class="container">
+		<div class="row">
+			<div class="venue-title">
+			<center><h3>Visit Us Here</h3></center>	
+			</div>
+
+			<div class="col-md-12">
+				<div class="map">
+				<div id="map">
+				<script>
+					function initMap() {
+					  var uluru = {lat: 13.012357, lng: 80.240205};
+					  var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 15,
+						center: uluru
+					  });
+					  var marker = new google.maps.Marker({
+						position: uluru,
+						map: map
+					  });
+					}
+				</script>
+				<script async defer
+				  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7QLgJYQelaWyV9sKn4LZr8mOllQUUcsE&callback=initMap">
+				</script>
+				</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    SPONSORS SECTION   
+============================== -->
+<section id="sponsors" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow bounceIn col-md-12 col-sm-12">
+				<div class="section-title">
+					<h2>Our Sponsors</h2>
+					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.3s">
+				<img src="images/sponsor-img1.jpg" class="img-responsive" alt="sponsors">	
+			</div>
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.6s">
+				<img src="images/sponsor-img2.jpg" class="img-responsive" alt="sponsors">	
+			</div>
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.9s">
+				<img src="images/sponsor-img3.jpg" class="img-responsive" alt="sponsors">	
+			</div>
+
+			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="1s">
+				<img src="images/sponsor-img4.jpg" class="img-responsive" alt="sponsors">	
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    CONTACT SECTION   
+============================== -->
+<section id="contact" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+				<div class="contact_des">
+					<h3>New Event</h3>
+					<p>Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget. Suspendisse eu turpis sed elit pretium congue.</p>
+					<p>Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.</p>
+					<a href="#" class="btn btn-danger">DOWNLOAD NOW</a>
+				</div>
+			</div>
+
+			<div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
+				<div class="contact_detail">
+					<div class="section-title">
+						<h2>Keep in touch</h2>
+					</div>
+					<form action="#" method="post">
+						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
+					  	<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+					  	<textarea name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+						<div class="col-md-6 col-sm-10">
+							<input name="submit" type="submit" class="form-control" id="submit" value="SEND">
+						</div>
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- =========================
+    FOOTER SECTION   
+============================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+                    
+                   <h3 class="wow fadeInUp" data-wow-delay="0.6s">Follow us on:</h3>
+
+				<ul class="social-icon">
+					<li><a href="https://www.facebook.com/enantra" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="https://www.instagram.com/enantra.fest/" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.3s"></a></li>
+				</ul>
+
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+
+<!-- Back top -->
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- =========================
+     SCRIPTS   
+============================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 </html>
