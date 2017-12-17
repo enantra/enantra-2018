@@ -70,7 +70,7 @@ a {
 }
 
 #detail, #video,
-#events,
+#events,#mega_events,
 #program,
 #sponsors, #speakers,
 #contact, footer {
@@ -79,7 +79,7 @@ a {
 }
 
 #detail,
-#speakers, #sponsors,#events,
+#speakers, #sponsors,#events,#mega_events,
 footer {
   text-align: center;
 }
@@ -371,6 +371,42 @@ events h6 {
 }
 
 #events .events-wrapper {
+    background: #ffffff;
+    padding-bottom: 22px;
+}
+
+/*---------------------------------------
+   Mega Events section              
+-----------------------------------------*/
+
+#mega_events {
+  background: #f9f9f9;  
+}
+
+#mega_events h3{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+mega_events h6 {
+  color: #666;
+  margin-top: 4px;
+}
+#mega_events img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#mega_events .col-md-3 {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+
+#mega_events .mega_events-wrapper {
     background: #ffffff;
     padding-bottom: 22px;
 }
@@ -804,3 +840,26 @@ footer {
 
 }
 
+/*---------------------------
+MINI EVENT MODALS
+---------------------------*/
+#mini-event-modal .rules{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color:grey;
+} 
+
+#mini-event-modal .format{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color:grey;
+} 
+
+#speakers .btn-danger{
+ background-color:#233E6A;
+ border: #233E6A;
+}
+
+#speakers .btn-danger:hover{
+ font-size:20px;
+}
