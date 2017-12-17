@@ -71,7 +71,7 @@ a {
 
 #detail, #video,
 #events,#mega_events,
-#program,
+#program,#workshop,
 #sponsors, #speakers,
 #contact, footer {
     padding-top: 10rem;
@@ -79,7 +79,7 @@ a {
 }
 
 #detail,
-#speakers, #sponsors,#events,#mega_events,
+#speakers, #sponsors,#events,#mega_events,#workshop,
 footer {
   text-align: center;
 }
@@ -448,6 +448,41 @@ Speakers section
     padding-bottom: 22px;
 }
 
+/*---------------------------------------
+   Workshop section              
+-----------------------------------------*/
+
+#workshop {
+  background: #f9f9f9;  
+}
+
+#workshop h3{
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+workshop h6 {
+  color: #666;
+  margin-top: 4px;
+}
+#workshop img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#workshop .col-md-3 {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+}
+
+#workshop .workshop-wrapper {
+    background: #ffffff;
+    padding-bottom: 22px;
+}
 
 
 /*---------------------------------------
