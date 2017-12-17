@@ -217,7 +217,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #66ccff;
+    color: #233E6A;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -227,7 +227,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color:#233E6A;
 }
 
 .custom-navbar .navbar-toggle {
@@ -251,7 +251,7 @@ footer {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #101010;
+        background:#1e1e1e;
         padding: 0;
     }
 
@@ -284,7 +284,26 @@ footer {
   letter-spacing: 2px;
 }
 
+#intro .btn-danger{
+  background-color:#233E6A;
+  font-size: 13px;
+}
 
+#intro .btn-default{
+  color:#233E6A;
+  font-size:13px;
+}
+
+#intro .btn-danger:hover{
+  color:#233E6A;
+  font-size: 15px;
+}
+
+#intro .btn-default:hover{
+  background-color: #233E6A;
+  color:white;
+  font-size:15px;
+}
 
 /*---------------------------------------
    Overview  section              
@@ -305,7 +324,7 @@ footer {
 }
 
 #detail .fa {
-  color: #f2545f;
+  color: #233e6a;
   font-size: 48px;
 }
 
@@ -442,7 +461,7 @@ Speakers section
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #f2545f;
+  color: #233e6a;
   cursor: default;
   background-color: transparent;
   border: 1px solid transparent;
@@ -668,7 +687,7 @@ footer {
 }
 
 .go-top:hover {
-    background: #f2545f;
+    background: #233e6a;
     color: #ffffff;
 }
 
@@ -701,7 +720,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #f2545f;
+    background: #233e6a;
     color: #ffffff;
 }
 
