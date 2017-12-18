@@ -61,10 +61,10 @@ http://www.templatemo.com/tm-486-new-event
 				<li><a href="#events" class="smoothScroll">Events</a></li>				
 				<li><a href="#speakers" class="smoothScroll">6DT</a></li>
 				<li><a href="#workshop" class="smoothScroll">Workshop</a></li>				
-				<li><a href="#program" class="smoothScroll">Schedule</a></li>
+			<!--	<li><a href="#program" class="smoothScroll">Schedule</a></li> -->
 				<li><a href="#faq" class="smoothScroll">FAQs</a></li>
 				<li><a href="#venue" class="smoothScroll">Venue</a></li>
-				<li><a href="#sponsors" class="smoothScroll">Sponsors</a></li>
+			<!--	<li><a href="#sponsors" class="smoothScroll">Sponsors</a></li> -->
 				<li><a href="#contact" class="smoothScroll">Contact</a></li>
 			</ul>
 
@@ -818,7 +818,7 @@ Mini event modal
 				</div>
 					<div class="modal-body">
 						<h4>DESCRIPTION :</h4>	
-						<p>A discussion that revolves around with one moderator and everyone gives their input on questions. Unconference is a conference organized, structured and led by the people attending it. Instead of passive listening, all attendees and organizers are encouraged to become participants, with discuss leaders providing moderation and structure of attendees. </p>
+						<p>Unconference is a conference organised, structured and led by the people attending it. It is a discussion that revolves around a moderator and a set of participants who provide their input questions.Instead of passive listening,all attendees are encouraged to give out their inputs and make the session interactive.This event will have multiple participants from different fields focussed on the sharing of ideas.The relationship which evolves as a result of an Unconference often tends to continue well past the event.It is a participatory community building platform.</p>
 					</div>
 	
 				<div class="modal-footer">
@@ -849,32 +849,27 @@ Mini event modal
 			================================================== -->
 			<div id="owl-speakers" class="owl-carousel">
 
-		<!--		<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
 					<div class="speakers-wrapper">
-						<img src="images/speakers-img1.jpg" class="img-responsive" alt="speakers">
+						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>Jenny Green</h3>
-								<h6>UI Designer</h6>
 							</div>
 					</div>
 				</div>
-			-->
+			
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-			<!--		<div class="speakers-wrapper">
-						<img src="images/speakers-img2.jpg" class="img-responsive" alt="speakers">
+					<div class="speakers-wrapper">
+						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>David Yoon</h3>
-								<h6>Creative Director</h6>
 							</div>
-					</div> -->
+					</div>
 				</div> 
 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
 					<div class="speakers-wrapper">
 						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-							<!--	<h3>Je Mary Lee</h3>
-								<h6>Web Specialist</h6> -->
+
 							</div>
 					</div>
 				</div>
@@ -883,29 +878,50 @@ Mini event modal
 					<div class="speakers-wrapper">
 						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-							<!--	<h3>Johnathan Doe</h3>
-								<h6>Frontend Dev</h6> -->
 							</div>
 					</div>
 				</div>
 
 				<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.6s">
-		<!--			<div class="speakers-wrapper">
-						<img src="images/speakers-img5.jpg" class="img-responsive" alt="speakers">
+					<div class="speakers-wrapper">
+						<img src="images/soon.jpg" class="img-responsive" alt="speakers">
 							<div class="speakers-thumb">
-								<h3>Elite Hamilton</h3>
-								<h6>Marketing Guru</h6>
 							</div>
-					</div> -->
+					</div> 
 				</div> 
 				
 			</div>
-			<a href="#"  class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s" color=>BOOK NOW</a>
-			
+			<a data-target="#booknow" data-toggle="modal">																																									
+			<button class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s" color=>BOOK NOW</button>
+			</a>
 		</div>
 	</div> 
 </section>
 
+<!--=========================
+	SPEAKERS MODAL
+=========================-->
+
+<section id="speaker-modal">
+	<div tabindex="-1" class="modal fade" id="booknow" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+				  <h4 class="modal-title" id="myModalLabel">Tickets</h4>
+				</div>
+					<div class="modal-body">
+						<p>Stay tuned for updates!</p> 
+					</div>
+	
+				<div class="modal-footer">
+				  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+				</div>
+			  </div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+	</div><!-- /.modal --> 	 
+
+</section>
 
 <!--=========================
 	WORKSHOP SECTION
@@ -976,7 +992,7 @@ Mini event modal
 	WORKSHOP MODALS
 ===========================-->
 
-<section id="mega-event-modal">
+<section id="workshop-modal">
 		<div tabindex="-1" class="modal fade" id="gst" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
 				<div class="modal-dialog">
 				  <div class="modal-content">
@@ -986,6 +1002,17 @@ Mini event modal
 					</div>
 						<div class="modal-body">
 							<h4>DESCRIPTION :</h4>	
+							<p>GST changed a lot for our economy. Ever wondered how could this create and impact to your start-up?  A workshop that helps participants understand the several aspect of GST and it's implications in the world of Start-Ups. </p>
+							<h4>FORMAT :</h4>						
+							<p>It is a Traditional workshop. Further details will be updated soon.</p>		
+							<h4>Rules :</h4>
+							<ul class="rules">
+								<li>Participants have to register 3 days prior to workshop.</li>
+								<li>Inappropriate behaviour will not be encouraged during the session</li>
+								<li>Phones are not encouraged</li>
+							</ul>
+							<h4>Fee :</h4>
+							<p class="toUpdate">Will be updated soon.</p>
 						</div>
 		
 					<div class="modal-footer">
@@ -1002,9 +1029,20 @@ Mini event modal
 						  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
 						  <h4 class="modal-title" id="myModalLabel"> Digital Marketing Workshop</h4>
 						</div>
-							<div class="modal-body">
-								<h4>DESCRIPTION :</h4>	
-							</div>
+						<div class="modal-body">
+							<h4>DESCRIPTION :</h4>	
+							<p>Innovation needs to be part of your culture. Consumers are transforming faster than we are, and if we don’t catch up, we’re in trouble. So it is always best to improve our methods to increase our outreach. In this workshop you will gain all the knowledge required about digital marketing and ways to improve existing marketing methods. </p>
+							<h4>FORMAT :</h4>						
+							<p>It will be an Interactive workshop with a well-known digital marketing team.</p>
+							<h4>Rules :</h4>
+							<ul class="rules">
+								<li>Participants have to register 3 days prior to workshop</li>
+								<li>Inappropriate behaviour will not be encouraged during the session</li>
+								<li>Phones are not encouraged</li>
+							</ul>
+							<h4>Fee :</h4>
+							<p class="toUpdate">Will be updated</p>
+						</div>
 			
 						<div class="modal-footer">
 						  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
@@ -1020,9 +1058,20 @@ Mini event modal
 					  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
 					  <h4 class="modal-title" id="myModalLabel">Bitcoin Workshop</h4>
 					</div>
-						<div class="modal-body">
-							<h4>DESCRIPTION :</h4>	
-						</div>
+					<div class="modal-body">
+						<h4>DESCRIPTION :</h4>	
+						<p>Lost in the world of cryptocurrency? Do you feel the need to understand the future of digital currency and transactions? Then attend our workshop to become a master in the bitcoin network! A workshop which will help students understand what a bitcoin is and its application in entrepreneurship.</p>
+						<h4>FORMAT :</h4>						
+						<p>Further details about format to be updated soon</p>
+						<h4>Rules :</h4>
+						<ul class="rules">
+							<li>Participants have to register 3 days prior to workshop</li>
+							<li>Inappropriate behaviour will not be encouraged during the session</li>
+							<li>Phones are not encouraged</li>
+						</ul>
+						<h4>Fees :</h4>
+						<p class="toUpdate">Will be updated soon</p>
+					</div>
 		
 					<div class="modal-footer">
 					  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
@@ -1039,9 +1088,20 @@ Mini event modal
 					  <button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
 					  <h4 class="modal-title" id="myModalLabel">Stock Market Workshop</h4>
 					</div>
-						<div class="modal-body">
-							<h4>DESCRIPTION :</h4>	
-						</div>
+					<div class="modal-body">
+						<h4>DESCRIPTION :</h4>	
+						<p>Ever dreamt owning shares and ruling the stock market? Well its always worth giving it a shot. Get the best guide to stock market investment. This workshop will help you understand all the aspects of stock market and how to master the market and trades involved in stock markets. </p>
+						<h4>FORMAT :</h4>						
+						<p class="toUpdate">Further details about format to be updated soon</p>
+						<h4>Rules :</h4>
+						<ul class="rules">
+							<li>Participants have to register 3 days prior to workshop</li>
+							<li>Inappropriate behaviour will not be encouraged during the session</li>
+							<li>Phones are not encouraged</li>
+						</ul>
+						<h4>Fees :</h4>
+						<p class="toUpdate">Will be updated soon</p>
+					</div>
 		
 					<div class="modal-footer">
 					  <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
@@ -1056,360 +1116,6 @@ Mini event modal
     PROGRAM/SCHEDULE SECTION   
 ============================== -->
 
-<section id="program" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
-				<div class="section-title">
-					<h2>Our Schedule</h2>
-				</div>
-			</div>
-
-			<div class="wow fadeInUp col-md-10 col-sm-10" data-wow-delay="0.9s"> 
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-					<li class="active"><a href="#fday" aria-controls="fday" role="tab" data-toggle="tab">DAY 1</a></li>
-					<li><a href="#sday" aria-controls="sday" role="tab" data-toggle="tab">DAY 2</a></li>
-					<li><a href="#tday" aria-controls="tday" role="tab" data-toggle="tab">DAY 3</a></li>
-					<li><a href="#ftday" aria-controls="ftday" role="tab" data-toggle="tab">DAY 4</a></li>					
-				</ul>
-				<!-- tab panes -->
-				<div class="tab-content">
-
-					<div role="tabpanel" class="tab-pane active" id="fday">
-						<!-- program speaker here -->
-						<div class="col-md-10 col-sm-10">
-							<h6>
-							<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-								<h3>Inaugration</h3>
-								<span><i class="fa fa-map-marker"></i> Tag Auditorium</span>
-							</h6>
-						</div>
-
-						<br />
-
-						<div class="col-md-10 col-sm-10">
-								<h6>
-								<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-									<h3>6DT</h3>
-									<span><i class="fa fa-map-marker"></i> Tag Auditorium</span>
-								</h6>
-							</div>
-
-					<!--	<div class="col-md-2 col-sm-2">
-							<img src="images/program-img3.jpg" class="img-responsive" alt="program">
-					    </div> -->
-
-					</div>
-
-					<div role="tabpanel" class="tab-pane" id="sday">
-							<!-- program speaker here -->
-							<div class="col-md-10 col-sm-10">
-								<h6>
-								<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-									<h3>Strategy Master</h3>
-									<span><i class="fa fa-map-marker"></i> KP classroom</span>
-								</h6>
-							</div>
-	
-							<br />
-	
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Spin the wheel</h3>
-										<span><i class="fa fa-map-marker"></i>Informal Stage</span>
-									</h6>
-							</div>
-							<br />
-							
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Grandmaster</h3>
-										<span><i class="fa fa-map-marker"></i> SNH</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Stock Market Workshop</h3>
-										<span><i class="fa fa-map-marker"></i>Raman Auditorium</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Marketing Marathon</h3>
-										<span><i class="fa fa-map-marker"></i> Eg Hall 209</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Unconference</h3>
-										<span><i class="fa fa-map-marker"></i> Koodal Hall</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Puzzled</h3>
-										<span><i class="fa fa-map-marker"></i> ACT</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>6DT-Panel Discussion</h3>
-										<span><i class="fa fa-map-marker"></i> X Hall</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>6DT</h3>
-										<span><i class="fa fa-map-marker"></i> Raman Auditorium</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>StartUp Weekend</h3>
-										<span><i class="fa fa-map-marker"></i> Tag Auditorium</span>
-									</h6>
-							</div>
-	
-						<!--	<div class="col-md-2 col-sm-2">
-								<img src="images/program-img3.jpg" class="img-responsive" alt="program">
-							</div> -->
-	
-						</div>
-
-					<div role="tabpanel" class="tab-pane" id="tday">
-													<!-- program speaker here -->
-							<div class="col-md-10 col-sm-10">
-								<h6>
-								<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-									<h3>GST Workshop</h3>
-									<span><i class="fa fa-map-marker"></i> Henry Maudslay Hall</span>
-								</h6>
-							</div>
-	
-							<br />
-	
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>StartUp Pitchfest</h3>
-										<span><i class="fa fa-map-marker"></i>Optimus Hall</span>
-									</h6>
-							</div>
-							<br />
-							
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>E-Idol</h3>
-										<span><i class="fa fa-map-marker"></i> KP classroom</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Digital Marketing Workshop</h3>
-										<span><i class="fa fa-map-marker"></i> Hall of Guines</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3> Quiz</h3>
-										<span><i class="fa fa-map-marker"></i> SNH</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Marketing Marathon</h3>
-										<span><i class="fa fa-map-marker"></i> KP classroom</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Biz Wizard</h3>
-										<span><i class="fa fa-map-marker"></i> SNH</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Hear My Voice</h3>
-										<span><i class="fa fa-map-marker"></i> ACT</span>
-									</h6>
-							</div>
-
-							<br />
-							
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>StartUp Street</h3>
-										<span><i class="fa fa-map-marker"></i> 2 EG Halls</span>
-									</h6>
-							</div>
-
-							<br />
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Uber Pitch</h3>
-										<span><i class="fa fa-map-marker"></i> KP classroom</span>
-									</h6>
-							</div>
-							
-							<br />
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>StartUp Weekend</h3>
-										<span><i class="fa fa-map-marker"></i> Tag Auditorium</span>
-									</h6>
-							</div>
-
-							<br />
-
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>6DT</h3>
-										<span><i class="fa fa-map-marker"></i> Vivek Auditorium</span>
-									</h6>
-							</div>
-	
-						<!--	<div class="col-md-2 col-sm-2">
-								<img src="images/program-img3.jpg" class="img-responsive" alt="program">
-							</div> -->
-					</div>
-
-					<div role="tabpanel" class="tab-pane active" id="ftday">
-							<!-- program speaker here -->
-							<div class="col-md-10 col-sm-10">
-								<h6>
-								<!--<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-									<h3>StartUp Weekend</h3>
-									<span><i class="fa fa-map-marker"></i> Tag Auditorium</span>
-								</h6>
-							</div>
-	
-							<br />
-	
-							<div class="col-md-10 col-sm-10">
-									<h6>
-									<!--	<span><i class="fa fa-clock-o"></i> 09.00 AM</span>  -->
-										<h3>Entre-tainment</h3>
-										<span><i class="fa fa-map-marker"></i> Vivek Auditorium</span>
-									</h6>
-								</div>
-	
-						<!--	<div class="col-md-2 col-sm-2">
-								<img src="images/program-img3.jpg" class="img-responsive" alt="program">
-							</div> -->
-	
-						</div>
-
-				</div>
-
-		</div>
-	</div>
-</section>
-
-<!-- =========================
-   REGISTER SECTION   
-============================== -->
-<!--
-<section id="register" class="parallax-section">
-	<div class="container">
-		<div class="row">
-
-			<div class="wow fadeInUp col-md-7 col-sm-7" data-wow-delay="0.6s">
-				<h2>Register Here</h2>
-				<h3>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet consectetuer diam nonummy.</p>
-			</div>
-
-			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
-				<form action="#" method="post">
-					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="First Name">
-					<input name="lastname" type="text" class="form-control" id="lastname" placeholder="Last Name">
-					<input name="phone" type="telephone" class="form-control" id="phone" placeholder="Phone Number">
-					<input name="email" type="email" class="form-control" id="email" placeholder="Email Address">
-
-					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
-						<input name="submit" type="submit" class="form-control" id="submit" value="REGISTER">
-					</div>
-				</form>
-			</div>
-
-			<div class="col-md-1"></div>
-
-		</div>
-	</div>
-</section>
--->
 
 <!-- =========================
     FAQ SECTION   
@@ -1423,7 +1129,6 @@ Mini event modal
 			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
 				<div class="section-title">
 					<h2>Do you have Questions?</h2>
-					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
 				</div>
 			</div>
 
@@ -1434,15 +1139,22 @@ Mini event modal
    						<div class="panel-heading" role="tab" id="headingOne">
       						<h4 class="panel-title">
         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          							 What is Responsive Design?
+          							 1.Why Enantra?
         						</a>
       						</h4>
     					</div>
    						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       						<div class="panel-body">
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-								<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
-      						</div>
+										<p>&quot;We will make it because we are young and we will never, never give up.&quot; – Jack Ma</p>
+										<p>An entrepreneur never fails to innovate. With India becoming the budding hub for entrepreneurship, Enantra aims
+												to build a platform for budding entrepreneurs and start- up enthusiasts to come together and have an alluring
+												experience. It also aims to bridge the corporate and entrepreneurship world by adding an essence of
+												professionalism and henceforth aims to inculcate the very essence of entrepreneurship around the
+												foreground of the city.</p>
+										<p>Come join us for exciting events, workshops and talks which will give you an all new perspective
+												about entrepreneurship. For further details please look up on our blog about Enantra 2017!</p>			
+										<a href="https://blog.enantra.org/">Medium blog</a>	
+									</div>
    						 </div>
  					</div>
 
@@ -1450,15 +1162,14 @@ Mini event modal
    						<div class="panel-heading" role="tab" id="headingTwo">
       						<h4 class="panel-title">
         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          							What are latest UX Developments?
-        						</a>
+												2. How do I Register?
+										</a>
       						</h4>
     					</div>
    						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       						<div class="panel-body">
-                            	<p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit. Mauris justo erat, rhoncus in arcu at, scelerisque tempor erat.</p>
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-      						</div>
+										<p>To become a part of Enantra please go to the <a href="register.html">link</a>.</p>
+									</div>
    						 </div>
  					</div>
 
@@ -1466,17 +1177,151 @@ Mini event modal
    						<div class="panel-heading" role="tab" id="headingThree">
       						<h4 class="panel-title">
         						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          							What things about Social Media will be discussed?
-        						</a>
+												3. Do I register for all three days?
+										</a>
       						</h4>
     					</div>
    						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       						<div class="panel-body">
-                            	<p>Aenean vulputate finibus justo et feugiat. Ut turpis lacus, dapibus quis justo id, porttitor tempor justo. Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa.</p>
-        						<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet, wisi risus purus augue vulputate voluptate neque, curabitur dolor libero sodales vitae elit massa. Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-      						</div>
+										<p>You just have to register once for all days! You will be given an unique E ID which will
+												contain your personal details.</p>
+									</div>
    						 </div>
- 					 </div>
+						</div>
+						
+						<div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+												4. Is there a registration fee?
+											</a>
+									 </h4>
+							 </div>
+								<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>There is no registration fee to enter Enantra as a whole. But the fee to enter every individual
+												event will differ.</p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+												5. How many mini-events are there and what are the cash prizes?
+											</a>
+									 </h4>
+							 </div>
+								<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>There are a total of 10 mini events each of it uniquely designed for you to make the best out
+												of it and there are exciting cash prizes worth 20-25k for each mini event depending upon the
+												event and also exciting internship opportunities. For more information please scroll up *scroll
+												up*</p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+											6. How many workshops are included?
+											</a>
+									 </h4>
+							 </div>
+								<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>There are a total of 4 workshops in Enantra. These workshops will help escalate your view
+												about the several aspects involved in business and entrepreneurship as well. For further
+												workshop details visit <a href="workshop">WORKSHOPS</a>.</p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+											7. How about accomodation for students from other states?
+											</a>
+									 </h4>
+							 </div>
+								<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>Accommodation will be provided in the hostels of Anna University. They are well facilitated
+												and a good place to stay.</p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+											8. Who should I contact if I'm having a technical issue.
+											</a>
+									 </h4>
+							 </div>
+								<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>Our apologies for any inconvenience, but we’re here to help! Please send an email describing
+												your issue to <a>tech.capitalize@gmail.com</a></p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+											9. What do I lookout in the mega events?	
+										</a>
+									 </h4>
+							 </div>
+								<div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>The mega events form the heart of the fest! You have a variety of events which will help you
+												network meet and learn from famous entrepreneurs and start-up giants. For further in detail
+												information you can visit <a href="#events">Events</a></p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseThree">
+											10. How do I become a sponsor?	
+										</a>
+									 </h4>
+							 </div>
+								<div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										<p>This is our favourite type of question!</p>
+										<p>Please reach out to our ER team, at 8903832168 or at externalrelations@enantra.org. To see
+												our list of sponsors, please<a href="#sponsors"> click here.</a></p>
+									 </div>
+								 </div>
+						 </div>	
+
+						 <div class="panel panel-default">
+								<div class="panel-heading" role="tab" id="headingThree">
+									 <h4 class="panel-title">
+										 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseThree">
+											11. Who should I contact with a social media request?	
+										</a>
+									 </h4>
+							 </div>
+								<div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									 <div class="panel-body">
+										 <p>Please contact Pradeepa, our Director of Publicity, at 9698111129 or
+												<a>publicrelations@enantra.org</a></p>
+									 </div>
+								 </div>
+								</div>
+						 
 
  				 </div>
 			</div>
@@ -1527,36 +1372,7 @@ Mini event modal
 <!-- =========================
     SPONSORS SECTION   
 ============================== -->
-<section id="sponsors" class="parallax-section">
-	<div class="container">
-		<div class="row">
 
-			<div class="wow bounceIn col-md-12 col-sm-12">
-				<div class="section-title">
-					<h2>Our Sponsors</h2>
-					<p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
-				</div>
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.3s">
-				<img src="images/sponsor-img1.jpg" class="img-responsive" alt="sponsors">	
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.6s">
-				<img src="images/sponsor-img2.jpg" class="img-responsive" alt="sponsors">	
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="0.9s">
-				<img src="images/sponsor-img3.jpg" class="img-responsive" alt="sponsors">	
-			</div>
-
-			<div class="wow fadeInUp col-md-3 col-sm-6 col-xs-6" data-wow-delay="1s">
-				<img src="images/sponsor-img4.jpg" class="img-responsive" alt="sponsors">	
-			</div>
-
-		</div>
-	</div>
-</section>
 
 
 <!-- =========================
@@ -1566,29 +1382,11 @@ Mini event modal
 	<div class="container">
 		<div class="row">
 
-			<div class="wow fadeInUp col-md-offset-1 col-md-5 col-sm-6" data-wow-delay="0.6s">
+			<div class="wow fadeInUp col-md-offset-1 col-md-12 col-sm-12" data-wow-delay="0.6s">
 				<div class="contact_des">
-					<h3>New Event</h3>
-					<p>Proin sodales convallis urna eu condimentum. Morbi tincidunt augue eros, vitae pretium mi condimentum eget. Suspendisse eu turpis sed elit pretium congue.</p>
-					<p>Mauris at tincidunt felis, vitae aliquam magna. Sed aliquam fringilla vestibulum. Praesent ullamcorper mauris fermentum turpis scelerisque rutrum eget eget turpis.</p>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor.</p>
-					<a href="#" class="btn btn-danger">DOWNLOAD NOW</a>
-				</div>
-			</div>
-
-			<div class="wow fadeInUp col-md-5 col-sm-6" data-wow-delay="0.9s">
-				<div class="contact_detail">
-					<div class="section-title">
-						<h2>Keep in touch</h2>
-					</div>
-					<form action="#" method="post">
-						<input name="name" type="text" class="form-control" id="name" placeholder="Name">
-					  	<input name="email" type="email" class="form-control" id="email" placeholder="Email">
-					  	<textarea name="message" rows="5" class="form-control" id="message" placeholder="Message"></textarea>
-						<div class="col-md-6 col-sm-10">
-							<input name="submit" type="submit" class="form-control" id="submit" value="SEND">
-						</div>
-					</form>
+					<h3>Contact Us :</h3>
+					<h5>Vishnu Priya: 9790709266</h5>
+					<h5>Ahil :8344962072</h5>
 				</div>
 			</div>
 

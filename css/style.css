@@ -689,6 +689,7 @@ workshop h6 {
 #contact .contact_des {
   padding-top: 3rem;
   padding-right: 2rem;
+  color:white;
 }
 
 #contact .contact_detail {
@@ -883,6 +884,16 @@ MINI EVENT MODALS
   font-style: normal;
   color:grey;
 } 
+
+#workshop-modal .rules{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color:grey;
+} 
+
+#workshop-modal .toUpdate{
+  color:#ff3232;
+}
 
 #mini-event-modal .format{
   font-family: 'Poppins', sans-serif;
