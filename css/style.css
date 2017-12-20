@@ -681,9 +681,9 @@ workshop h6 {
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact.jpg') 50% 0 repeat-y fixed;
+    /* background: url('../images/contact.jpg') 40% 0 repeat-y fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
 }
 
 #contact .contact_des {
