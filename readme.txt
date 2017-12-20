@@ -1,0 +1,1 @@
+create the tables in a local mysql server and alter the credentials present in the config file(/server/config/config.json) and then run the server by using "node enentra.js" command. The server is running in port 3523.
