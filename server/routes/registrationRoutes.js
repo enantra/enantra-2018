@@ -4,7 +4,7 @@
     var registrationController = require('../controllers/registrationController');
 
     router.get('/register',function (req, res) {
-        res.send("I am working");
+        registrationController.register(req,res);
     });
 
     module.exports = router;
