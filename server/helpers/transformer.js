@@ -1,6 +1,7 @@
 (function () {
 
     var commonService = require('../services/commonService');
+    var registerDao = require('../daos/registrationDao');
     var config = require('../config/config.json');
 
     module.exports.constructRegisterData = function (body, code, callback) {
@@ -32,6 +33,20 @@
             text : "Enantra id:"+e_id+'\n'+"Referral code:"+token
         };
         callback(null,mail);
+    };
+
+    module.exports.ebmMail = function (mail,callback) {
+        var mail = {
+            from : "Enantra 2k18",
+            to : mail,
+            subject : "Ebm registration regarding",
+            text : "Successfully registered"
+        };
+        callback(null,mail);
+    };
+
+    module.exports.fetchMail = function (id, callback) {
+        registerDao.getMail(id,callback);
     };
 
 })();

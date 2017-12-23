@@ -5,4 +5,8 @@
         registrationDao.register(param,callback);
     };
 
+    module.exports.registerEbm = function (body, callback) {
+        registrationDao.registerEbm(body,callback);
+    };
+
 })();

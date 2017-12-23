@@ -7,5 +7,9 @@
         registrationController.register(req,res);
     });
 
+    router.post('/register/ebm',function (req, res) {
+        registrationController.registerEbm(req,res);
+    });
+
     module.exports = router;
 })();

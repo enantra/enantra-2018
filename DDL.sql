@@ -44,7 +44,10 @@ create table tshirt(
 
 create table ebm(
 `id` int(255) primary key auto_increment not null,
-`ebm_id` varchar(500) unique not null,
 `e_id` varchar(500) unique not null,
-`t_shirt` int(255)  not null
+`t_shirt` int(255)  not null,
+Foreign Key(e_id) references users(e_id),
+Foreign Key(t_shirt) references tshirt(id) 
 );
+
+drop table ebm;
