@@ -3,7 +3,7 @@
     var router = express.Router();
     var registrationController = require('../controllers/registrationController');
 
-    router.get('/register',function (req, res) {
+    router.post('/register',function (req, res) {
         registrationController.register(req,res);
     });
 

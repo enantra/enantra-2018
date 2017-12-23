@@ -12,30 +12,16 @@
                 else{
                     connection.connect(function (err) {
                         if(err){
-                            return dbHandler.failed(res,"Error in connection");
+                            process.exit(0);
                         }
                         else{
                             return next();
                         }
                     });
-
-                    process.on('SIGINT',function () {
-                        connection.end(function () {
-                            console.log("App terminated and DB closed");
-                            process.exit(0);
-                        });
-                    });
-
-                    process.on('SIGTERM',function () {
-                        connection.end(function () {
-                            console.log("App terminated and DB closed");
-                            process.exit(0);
-                        });
-                    });
                 }
             }
             catch (err){
-                return dbHandler.failed(res,"Error in connection")
+                process.exit(0);
             }
 
         };

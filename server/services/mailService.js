@@ -5,7 +5,7 @@
     module.exports.mailer = function (mail, callback) {
         try{
             transport.sendMail(mail,function (err, data) {
-                callback(err);
+                callback(err,data);
             });
         }
         catch(err){

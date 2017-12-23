@@ -15,7 +15,7 @@
     app.use(morgan('dev'));
     app.use(bodyParser.json({limit: '50mb'}));
     app.use(bodyParser.urlencoded({limit: '50mb', extended: true }));
-    app.use(dbHandler(connection));
+    //app.use(dbHandler(connection));
     app.use('/',express.static(__dirname));
 
     var routes = require('./server/index')(app);
