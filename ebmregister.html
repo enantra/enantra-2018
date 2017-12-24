@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="/js/register.js" type="text/javascript"></script>
+  <script src="js/ebm.js" type="text/javascript"></script>
 <style type="text/css">
 body{
   background-repeat: no-repeat;
@@ -126,7 +126,8 @@ body{
             <div class="col-md-4">
               <div class="form-1">
                 <div class="well well-lg">
-                <h3 class="form-1-head">REGISTER for Enantra 2.0</h3>
+                <h3 class="form-1-head">Enantra Brand Manager</h3>
+                <h3 class="form-1-head">REGISTERATION</h3>
                 <div class="container-form">
                   <form class="form-horizontal" name="register" onsubmit="return validate()">
                     <div class="form-group">
@@ -170,11 +171,23 @@ body{
                           <label class="radio-inline">
                             <input type="radio" name="optradio" name="accomodation" checked="checked">No
                           </label>
-                      </div>
+                        </div>
+                        <div class="form-group row">
+                        <div class="col-xs-4">
+                         <label for="sel1" for="ex2">T-Shirt Size</label>
+                             <select class="form-control" id="sel1" id="ex2" name="year">
+                                  <option>XS</option>
+                                  <option>S</option>
+                                  <option>L</option>
+                                  <option>XL</option>
+                                  <option>XXL</option>
+                             </select>
+                          </div>
+                        </div>
                       <div class="form-group">
-                        <label for="text">Referral Code</label>
-                        <input type="text" class="form-control" id="text" name="referralcode" placeholder="Referral Code">
-                    </div>
+                        <label for="text">Enantra ID</label>
+                        <input type="text" class="form-control" id="text" name="eid" placeholder="Enantra ID">
+                      </div>
                     <div>
                       <center><button type="submit" class="btn btn-primary" >Submit</button></center>
                     </div>
