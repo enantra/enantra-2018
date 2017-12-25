@@ -198,7 +198,7 @@ footer {
 }
 
 .custom-navbar .navbar-brand {
-    color: #ffffff;
+    color: black;
     font-weight: 600;
     font-size: 3rem;
     line-height: 10px;
@@ -206,7 +206,7 @@ footer {
 }
 
 .custom-navbar .nav li a {
-    color: #ddd;
+    color:darkgrey;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.6px;
@@ -240,7 +240,7 @@ footer {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #ffffff;
+    background: black;
     border-color: transparent;
 }
 
@@ -263,11 +263,11 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/home.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/home1.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color:black;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -525,6 +525,7 @@ workshop h6 {
   line-height: 1.42857143;
   border: none;
   border-radius: 0px;
+  padding :36px 5px;
 }
 .nav-tabs > li > a:hover {
   background-color: transparent;
