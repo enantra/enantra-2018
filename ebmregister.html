@@ -11,9 +11,7 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <style type="text/css">
     body{
-      
-      background-repeat: no-repeat;
-      height:auto;
+      background-image:url("images/register.jpg");
       width: 100%;
       background-size: 100%;
       position: absolute;
@@ -28,13 +26,13 @@
       .form-1-head{
         text-align: center;
         font-weight: bolder;
+        font-family: 'Lato',serif;
       }
 
     .h4{
       font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
      }
      .bg{
-      background-image:url("images/register.jpg");
       /* background-attachment: fixed;  */
       height:auto;
       width: 100%;
@@ -99,62 +97,6 @@
     function validate()
     {   
       var c=0;
-      var x = document.register.name.value;
-      if(x=="")
-      {
-        swal({
-            icon:"error",
-            title: "Enter a Valid Name"
-          });
-        return false;
-      }
-      else
-        c++;
-      x = document.register.email.value;
-      var emailPat = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/ ;
-      var ematch=x.match(emailPat);
-      if (ematch == null) 
-      {
-            swal({
-            icon:"error",
-            title: "Enter a Valid Email"
-          });
-            return false;
-      }
-      else
-        c++;
-      x = document.register.number.value;
-      if(x.length<10)
-      {
-        swal({
-            icon:"error",
-            title: "Enter a Valid Mobile Number"
-          });
-        return false;
-      }
-      else c++;
-      x = document.register.dob.value;
-      if(x=="")
-      {
-        swal({
-            icon:"error",
-            title: "Enter a Valid Date of Birth"
-          });
-        return false;
-      }
-      else 
-        c++;
-      x = document.register.college.value;
-      if(x=="")
-      {
-        swal({
-            icon:"error",
-            title: "Enter Your College Name"
-          });
-        return false;
-      }
-      else 
-        c++;
       x = document.register.eid.value;
       if(x=="")
       {
@@ -166,9 +108,9 @@
       }
       else 
         c++;
-      if(c==6)
+      if(c==1)
         {
-        swal("Welcome to Enantra 2.0","Please check your spam/inbox for further Details","success");
+        swal("Welcome, Enantra Brand Manager","Please check your spam/inbox for further Details","success");
         return true;
       }
 
@@ -180,7 +122,7 @@
     <!--START OF HOME-SECTION-->
     <nav>
     <div class="navbar-header" style="align-content: center;">
-        <a href="index.html" class="navbar-brand"><img src="images/elogo.png" height="50px" width="200px"></a>
+        <a href="index.html" class="navbar-brand"><img src="images/elogo.png" height="50px" width="200px" style="background-color: white;"></a>
     </div>
     </nav>
 
@@ -196,7 +138,7 @@
                 </div>
                 <div class="container-form">
                   <form class="form-horizontal" action="https://www.google.com" method="get" name="register">
-                    <div class="form-group">
+                <!--    <div class="form-group">
                       <label for="text">Name</label>
                         <input type="text" class="form-control" id="text" placeholder="Name" name="name" id="ex3">
                     </div>
@@ -235,7 +177,7 @@
                           <label class="radio-inline">
                             <input type="radio" name="accomodation" checked="checked" value="0">No
                           </label>
-                      </div>
+                      </div>-->
                       <div class="form-group row">
                          <label for="sel1" for="ex2">T-Shirt Size</label>
                              <select class="form-control" id="sel1" id="ex2" name="year">
@@ -249,7 +191,7 @@
                       <div class="form-group">
                         <label for="text">Enantra ID</label>
                         <input type="text" class="form-control" id="text" name="eid" placeholder="Referral Code">
-                    </div>
+                     </div>
                     <div>
                       <center><button type="submit" class="btn btn-primary" onclick="return validate()">SUBMIT</button></center>
                     </div>

@@ -11,10 +11,9 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<style type="text/css">
 		body{
-		  
-		  background-repeat: no-repeat;
-		  height:auto;
+		  background-image:url("images/register.jpg");
 		  width: 100%;
+		  height: 100%;
 		  background-size: 100%;
 		  position: absolute;
 		  z-index: -1;
@@ -28,13 +27,13 @@
 		  .form-1-head{
 		    text-align: center;
 		    font-weight: bolder;
+		    font-family: 'Lato',serif;
 		  }
 
 	  .h4{
 	    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 	   }
 	   .bg{
-	   	background-image:url("images/register.jpg");
 	    /* background-attachment: fixed;  */
 	    height:auto;
 	    width: 100%;
@@ -155,7 +154,18 @@
 			}
 			else 
 				c++;
-			if(c==5)
+			var x = document.register.city.value;
+			if(x=="")
+			{
+				swal({
+					  icon:"error",
+					  title: "Enter a Valid City"
+					});
+				return false;
+			}
+			else
+				c++;
+			if(c==6)
 				{
 				swal("Welcome to Enantra 2.0","Please check your spam/inbox for further Details","success");
 				return true;
@@ -169,7 +179,7 @@
     <!--START OF HOME-SECTION-->
     <nav>
     <div class="navbar-header" style="align-content: center;">
-        <a href="index.html" class="navbar-brand"><img src="images/elogo.png" height="50px" width="200px"></a>
+        <a href="index.html" class="navbar-brand"><img src="images/elogo.png" height="50px" width="200px" style="background-color: white;"></a>
     </div>
     </nav>
 
@@ -204,6 +214,10 @@
                     <div class="form-group">
                         <label for="text">College</label>
                         <input type="text" class="form-control" id="text" name="college" placeholder="College">
+                    </div>
+                    <div class="form-group">
+                      <label for="text">City</label>
+                        <input type="text" class="form-control" id="text" placeholder="City" name="city" id="ex3">
                     </div>
                       <div class="form-group row">
                          <label for="sel1" for="ex2">Year</label>
